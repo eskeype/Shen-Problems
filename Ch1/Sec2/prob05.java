@@ -13,4 +13,9 @@ public class prob05
 		}
 		return count;
 	}
+	public static void main(String[]args)
+	{
+		int[] arr = {1,1,1,2,2,3,6,7,7,8,9,10,10,10,100};
+		System.out.println(uniqueElementCount(arr));
+	}
 }
